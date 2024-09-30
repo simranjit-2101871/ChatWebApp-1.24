@@ -1,0 +1,70 @@
+.navBar{
+    width:100%;
+    height:85px;
+    display:flex;
+    justify-content: center;
+    /*background-color: rgb(25, 29, 99);*/
+    background: linear-gradient(145deg, rgb(35 47 45 / 0%), rgb(23 167 154 / 38%), rgba(255, 255, 255, 0.1));
+}
+
+.logo{
+    height: 100%;
+    width: 106px;
+    border-radius: 50%;
+    
+}
+
+.container{
+    max-width: 955px;
+    background-image: url('chat\ image.jpg');
+    margin:auto;/*and what is this*/
+    height:60vh;
+    padding:33px;
+    overflow-y: scroll;/*due to this the scrolling has been made possible study about this or do it auto*/
+    margin-bottom:23px
+}
+
+.message{
+    background-color: grey;
+    width:24%;
+    padding:10px;
+    margin:17px 12px;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+.left{
+    float:left;/*meaning of both of these*/
+    clear:both;
+}
+
+.right{
+    float:right;
+    clear:both;
+}
+
+#send-container{
+    display: block;
+    margin:auto;
+    text-align: center;
+    max-width: 985px;/*meaning of this*/
+    width:100%
+}
+#messageInp{
+    width:92%;
+    border: 2px solid black;
+    border-radius:6px;
+    height:34px;
+}
+
+.btn{
+    cursor: pointer;
+    border:2px solid black;
+    border-radius:6px;
+    height:34px;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(145deg, rgba(63, 151, 77, 0.42), rgb(30, 96, 183), rgba(128, 14, 228, 0.10));
+}
